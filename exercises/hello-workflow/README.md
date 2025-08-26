@@ -17,7 +17,7 @@ You'll need three terminal windows for this exercise.
 
 ## Part A: Review the Workflow Business Logic
 
-1. Open the `workflows.ts` file (located in the `practice` subdirectory) in the editor.
+1. Open the `workflows.ts` file (located in the `practice/src` subdirectory) in the editor.
 2. Review the input parameters, business logic, and return value. 
 
 ## Part B: Change the Task Queue Name for the Worker
@@ -46,7 +46,7 @@ npm run start.watch
 
 ## Part E: Start the Workflow from the Command Line
 
-1. Go to another terminal window in the environment and make sure you are in the `exercises/hello-workflow/practice/src` subdirectory. 
+1. Go to another terminal window in the environment and make sure you are in the `exercises/hello-workflow/practice` subdirectory. 
 2. Run the following command, replacing `Donna` with your own name. Be sure to retain the same quoting shown here when you run the command:
 
 ```
