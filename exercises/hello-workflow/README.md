@@ -32,6 +32,7 @@ You'll need three terminal windows for this exercise.
 1. Open a terminal window in your environment and navigate to the `exercises/hello-workflow/practice` subdirectory.
 2. Run the following command to install the required dependencies:
 ```command
+temporal server start-dev
 npm install
 ```
 
@@ -78,7 +79,7 @@ This is a general Windows approach for handling quotes in parameters, not someth
 You can run the following command to display the result of a Workflow Execution: 
 
 ```command
-temporal workflow show --workflow-id <your_workflow_id>
+temporal workflow show --workflow-id my-first-workflow
 ```
 This command shows you a lot of information. We will cover this output later in the course. 
 
